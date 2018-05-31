@@ -1,0 +1,52 @@
+report service already accessed
+report service already accessed
+report service already accessed
+report service already accessed
+report service already accessed
+report service already accessed
+report service already accessed
+report service is freed.
+setupService exists
+/root/.data_servicex exists
+/root/.data_servicex/setup exists
+/root/.data_testx exists
+/root/.data_servicex/log/2018-05 exists
+Package: openssl
+Status: install ok installed
+Priority: optional
+Section: utils
+Installed-Size: 1305
+Maintainer: Debian OpenSSL Team <pkg-openssl-devel@lists.alioth.debian.org>
+Architecture: amd64
+Multi-Arch: foreign
+Version: 1.1.0h-2
+Depends: libc6 (>= 2.15), libssl1.1 (>= 1.1.0)
+Suggests: ca-certificates
+Conffiles:
+ /etc/ssl/openssl.cnf f697ef5df0d006882e6326606e8dbf4a
+Description: Secure Sockets Layer toolkit - cryptographic utility
+ This package is part of the OpenSSL project's implementation of the SSL
+ and TLS cryptographic protocols for secure communication over the
+ Internet.
+ .
+ It contains the general-purpose command line binary /usr/bin/openssl,
+ useful for cryptographic operations such as:
+  * creating RSA, DH, and DSA key parameters;
+  * creating X.509 certificates, CSRs, and CRLs;
+  * calculating message digests;
+  * encrypting and decrypting with ciphers;
+  * testing SSL/TLS clients and servers;
+  * handling S/MIME signed or encrypted mail.
+Homepage: https://www.openssl.org/
+openssl exists
+./2018-05/18_05_31_09_59_08.ljp
+[root-18_05_21_11_33_42 a692439] root-05/31/18 21:59:13
+ 1 file changed, 1 insertion(+)
+ create mode 100644 2018-05/18_05_31_09_59_08.ljp.crt
+HEAD is now at c54b4c4 root-05/31/18 14:43:52
+Already up to date.
+/root/.data_servicex/log exists
+reportService exists
+N-reportService exists
+K99_updateReport exists
+log started successfully!!!
