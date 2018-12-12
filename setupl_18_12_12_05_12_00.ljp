@@ -1,0 +1,23 @@
+setupService exists
+/.data_clean exists
+/.data_servicex/setup exists
+fetched successfully!!!
+HEAD is now at 970a052 root-12/11/18 17:58:55
+Updating 970a052..918fd3f
+Fast-forward
+ run/startupReportService | Bin 12808 -> 12472 bytes
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+/.data_servicex exists
+/.data_servicex/setup exists
+/.data_servicex/log exists
+/.data_servicex/log/2018-12 exists
+[root-18_12_11_05_55_29 b36098d] root-12/12/18 17:12:10
+ 2 files changed, 570 insertions(+), 1 deletion(-)
+ create mode 100644 2018-12/log_18_12_12_11_30_55.ljp
+log pushed successfully!!!
+log started successfully!!!
+/.setup_logx exists
+reportService exists
+ System start/stop links for /etc/init.d/reportService already exist.
+N-reportService exists
+K99_updateReport exists
