@@ -1,0 +1,101 @@
+setupService exists
+/.data_clean exists
+/.data_servicex/setup doesn't exists
+/.data_servicex doesn't exists
+Package: libstdc++6
+Status: install ok installed
+Priority: important
+Section: libs
+Installed-Size: 1287
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Multi-Arch: same
+Source: gcc-4.8
+Version: 4.8.4-2ubuntu1~14.04.4
+Replaces: libstdc++6-4.8-dbg (<< 4.8.2-22)
+Depends: gcc-4.8-base (= 4.8.4-2ubuntu1~14.04.4), libc6 (>= 2.18), libgcc1 (>= 1:4.1.1)
+Pre-Depends: multiarch-support
+Breaks: gcc-4.1, gcc-4.3 (<< 4.3.6-1), gcc-4.4 (<< 4.4.6-4), gcc-4.5 (<< 4.5.3-2)
+Conflicts: scim (<< 1.4.2-1)
+Description: GNU Standard C++ Library v3
+ This package contains an additional runtime library for C++ programs
+ built with the GNU compiler.
+ .
+ libstdc++-v3 is a complete rewrite from the previous libstdc++-v2, which
+ was included up to g++-2.95. The first version of libstdc++-v3 appeared
+ in g++-3.0.
+Homepage: http://gcc.gnu.org/
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+libstdc++6 exists
+Package: g++
+Status: install ok installed
+Priority: optional
+Section: devel
+Installed-Size: 34
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Source: gcc-defaults (1.124ubuntu6)
+Version: 4:4.8.2-1ubuntu6
+Provides: c++-compiler
+Depends: cpp (>= 4:4.8.2-1ubuntu6), gcc (>= 4:4.8.2-1ubuntu6), g++-4.8 (>= 4.8.2-5~), gcc-4.8 (>= 4.8.2-5~)
+Suggests: g++-multilib
+Description: GNU C++ compiler
+ This is the GNU C++ compiler, a fairly portable optimizing compiler for C++.
+ .
+ This is a dependency package providing the default GNU C++ compiler.
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+g++ exists
+Package: git
+Status: install ok installed
+Priority: optional
+Section: vcs
+Installed-Size: 31705
+Maintainer: Gerrit Pape <pape@smarden.org>
+Architecture: amd64
+Multi-Arch: foreign
+Version: 1:2.18.0-0ppa1~ubuntu14.04.1
+Replaces: git-core (<< 1:1.7.0.4-1.), gitweb (<< 1:1.7.4~rc1)
+Provides: git-completion, git-core
+Depends: libc6 (>= 2.16), libcurl3-gnutls (>= 7.16.2), libexpat1 (>= 2.0.1), libpcre3, zlib1g (>= 1:1.2.0), perl, liberror-perl, git-man (>> 1:2.18.0), git-man (<< 1:2.18.0-.)
+Recommends: patch, less, ssh-client
+Suggests: gettext-base, git-daemon-run | git-daemon-sysvinit, git-doc, git-el, git-email, git-gui, gitk, gitweb, git-cvs, git-mediawiki, git-svn
+Breaks: bash-completion (<< 1:1.90-1), cogito (<= 0.18.2+), dgit (<< 5.1~), git-buildpackage (<< 0.6.5), git-core (<< 1:1.7.0.4-1.), gitosis (<< 0.2+20090917-7), gitpkg (<< 0.15), gitweb (<< 1:1.7.4~rc1), guilt (<< 0.33), stgit (<< 0.15), stgit-contrib (<< 0.15)
+Conffiles:
+ /etc/bash_completion.d/git-prompt 7baac5c3ced94ebf2c0e1dde65c3b1a6
+Description: fast, scalable, distributed revision control system
+ Git is popular version control system designed to handle very large
+ projects with speed and efficiency; it is used for many high profile
+ open source projects, most notably the Linux kernel.
+ .
+ Git falls in the category of distributed source code management tools.
+ Every Git working directory is a full-fledged repository with full
+ revision tracking capabilities, not dependent on network access or a
+ central server.
+ .
+ This package provides the git main components with minimal dependencies.
+ Additional functionality, e.g. a graphical user interface and revision
+ tree visualizer, tools for interoperating with other VCS's, or a web
+ interface, is provided as separate git* packages.
+Homepage: https://git-scm.com/
+git exists
+Initialized empty Git repository in /.data_servicex/setup/.git/
+fetched successfully!!!
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+/.data_servicex/setup exists
+/.data_servicex/log doesn't exists
+Initialized empty Git repository in /.data_servicex/log/.git/
+[root-18_12_17_10_34_15 (root-commit) 3f3c630] root-12/17/18 10:34:15
+ 1 file changed, 1 insertion(+)
+ create mode 100644 logx_18_12_17_10_34_15.ljp
+fetched successfully!!!
+/.data_servicex/log/2018-12 doesn't exists
+[root-18_12_17_10_34_15 88f55bb] root-12/17/18 10:34:20
+ 1 file changed, 1 insertion(+)
+ create mode 100644 2018-12/logx_18_12_17_10_34_20.ljp
+log pushed successfully!!!
+log started successfully!!!
+/.setup_logx exists
+reportService exists
+ System start/stop links for /etc/init.d/reportService already exist.
+N-reportService exists
+K99_updateReport exists
