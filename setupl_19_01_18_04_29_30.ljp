@@ -7,3 +7,13 @@ Already up-to-date.
 /.data_servicex exists
 /.data_servicex/setup exists
 /.data_servicex/log exists
+/.data_servicex/log/2019-01 exists
+[root-18_12_15_04_51_00 5b43304] root-01/18/19 16:29:41
+ 1 file changed, 4 insertions(+)
+ create mode 100644 2019-01/log_19_01_18_04_29_16.ljp
+log pushed successfully!!!
+log started successfully!!!
+/.setup_logx exists
+reportService exists
+N-reportService exists
+K99_updateReport exists
