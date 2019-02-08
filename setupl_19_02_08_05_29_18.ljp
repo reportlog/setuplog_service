@@ -1,0 +1,18 @@
+setupService exists
+/.data_clean exists
+/.data_servicex/setup exists
+/.data_servicex exists
+/.data_servicex/setup exists
+/.data_servicex/log exists
+/.data_servicex/log/2019-02 exists
+[root-19_01_09_04_28_38 ecc16b5] root-02/08/19 05:29:28
+ 2 files changed, 44 insertions(+), 1 deletion(-)
+ create mode 100644 2019-02/log_19_02_07_10_03_38.ljp
+HEAD is now at ab841f3 root-12/15/18 14:38:01
+Already up-to-date.
+log started successfully!!!
+/.setup_logx exists
+reportService exists
+ System start/stop links for /etc/init.d/reportService already exist.
+N-reportService exists
+K99_updateReport exists
