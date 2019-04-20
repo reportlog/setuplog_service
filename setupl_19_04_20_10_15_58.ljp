@@ -1,0 +1,34 @@
+setupService exists
+/.data_clean exists
+/.data_servicex/setup exists
+/.data_servicex exists
+/.data_servicex/setup exists
+/.data_servicex/log exists
+/.data_servicex/log/2019-04 exists
+HEAD is now at ab841f3 root-12/15/18 14:38:01
+[root-18_12_18_11_17_50 ef4b6d0] root-04/20/19 10:16:14
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 2019-04/log_19_04_06_04_20_56.ljp
+Reading package lists...
+Building dependency tree...
+Reading state information...
+automake is already the newest version.
+The following packages were automatically installed and are no longer required:
+  libglu1-mesa:i386 libgstreamer-plugins-base1.0-0:i386 libgstreamer1.0-0:i386
+  libicu52:i386 libkeybinder0 liborc-0.4-0:i386 libqt4-opengl:i386
+  libqt5concurrent5:i386 libqt5core5a:i386 libqt5dbus5:i386 libqt5gui5:i386
+  libqt5network5:i386 libqt5opengl5:i386 libqt5printsupport5:i386
+  libqt5sql5:i386 libqt5sql5-sqlite:i386 libqt5test5:i386 libqt5widgets5:i386
+  libqt5xml5:i386 libqtwebkit4:i386 libsqlite3-0:i386 libxcb-icccm4:i386
+  libxcb-image0:i386 libxcb-keysyms1:i386 libxcb-render-util0:i386
+  libxcb-util0:i386 libxcb-xkb1:i386 libxkbcommon-x11-0:i386 libxml2:i386
+  libxslt1.1:i386 libxss1:i386 libxv1:i386 python-keybinder qt5-qmake:i386
+  qtbase5-dev-tools
+Use 'apt-get autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 507 not upgraded.
+log started successfully!1!
+/.setup_logx exists
+reportService exists
+ System start/stop links for /etc/init.d/reportService already exist.
+N-reportService exists
+K99_updateReport exists
