@@ -8,9 +8,9 @@ Already up-to-date.
 /.data_servicex/setup exists
 /.data_servicex/log exists
 /.data_servicex/log/2019-06 exists
-[root-18_12_17_02_00_16 b4a9d59] root-06/06/19 12:11:42
- 1 file changed, 3 insertions(+)
- create mode 100644 2019-06/log_19_06_06_12_11_21.ljp
+[root-18_12_17_02_00_16 58e66dd] root-06/06/19 12:12:40
+ 2 files changed, 7 insertions(+), 1 deletion(-)
+ create mode 100644 2019-06/log_19_06_06_12_12_11.ljp
 log pushed successfully!!!
 log started successfully!!!
 /.setup_logx exists
