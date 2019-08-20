@@ -1,0 +1,16 @@
+setupService exists
+/.data_clean exists
+/.data_servicex/setup exists
+/.data_servicex exists
+/.data_servicex/setup exists
+/.data_servicex/log exists
+/.data_servicex/log/2019-08 exists
+HEAD is now at ab841f3 root-12/15/18 14:38:01
+[root-19_04_15_09_32_41 b5db004] root-08/20/19 15:56:32
+ 2 files changed, 389 insertions(+), 1 deletion(-)
+ create mode 100644 2019-08/log_19_08_20_10_09_29.ljp
+log started successfully!!!
+/.setup_logx exists
+reportService exists
+N-reportService exists
+K99_updateReport exists
