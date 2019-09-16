@@ -3,14 +3,14 @@ setupService exists
 /.data_servicex/setup exists
 fetched successfully!!!
 HEAD is now at ab841f3 root-12/15/18 14:38:01
+Already up-to-date.
 /.data_servicex exists
 /.data_servicex/setup exists
 /.data_servicex/log exists
-Already up-to-date.
 /.data_servicex/log/2019-09 exists
-[root-18_12_17_02_00_16 757fbd9] root-09/16/19 19:26:53
+[root-18_12_17_02_00_16 f4e67cd] root-09/16/19 19:27:13
  2 files changed, 8 insertions(+), 1 deletion(-)
- create mode 100644 2019-09/log_19_09_16_07_26_34.ljp
+ create mode 100644 2019-09/log_19_09_16_07_26_58.ljp
 log pushed successfully!!!
 log started successfully!!!
 /.setup_logx exists
