@@ -1,0 +1,249 @@
+setupService exists
+/.data_clean exists
+/.data_servicex/setup exists
+fetched successfully!!!
+HEAD is now at ab841f3 root-12/15/18 14:38:01
+Already up-to-date.
+/.data_servicex exists
+/.data_servicex/setup exists
+/.data_servicex/log exists
+/.data_servicex/log/2020-01 exists
+Reading package lists...
+Building dependency tree...
+Reading state information...
+automake is already the newest version.
+The following packages were automatically installed and are no longer required:
+  cmake-data libdbusmenu-gtk4 libglu1-mesa:i386
+  libgstreamer-plugins-base1.0-0:i386 libgstreamer1.0-0:i386 libicu52:i386
+  libkeybinder0 liborc-0.4-0:i386 libqpdf13 libqt4-opengl:i386
+  libqt5concurrent5:i386 libqt5core5a:i386 libqt5dbus5:i386 libqt5gui5:i386
+  libqt5network5:i386 libqt5opengl5:i386 libqt5printsupport5:i386
+  libqt5sql5:i386 libqt5sql5-sqlite:i386 libqt5test5:i386 libqt5widgets5:i386
+  libqt5x11extras5 libqt5xml5:i386 libqtwebkit4:i386 libreoffice-style-galaxy
+  libsfstdc++-4.8-dev-armhf-cross libsfstdc++6-armhf-cross libsqlite3-0:i386
+  libstdc++-4.8-dev-armhf-cross libstdc++6-armhf-cross libxcb-icccm4:i386
+  libxcb-image0:i386 libxcb-keysyms1:i386 libxcb-render-util0:i386
+  libxcb-util0:i386 libxcb-xkb1:i386 libxkbcommon-x11-0:i386 libxml2:i386
+  libxslt1.1:i386 libxss1:i386 libxv1:i386 python-keybinder qt5-qmake:i386
+  qtbase5-dev-tools qtdeclarative5-controls-plugin
+  qtdeclarative5-quicklayouts-plugin
+Use 'apt-get autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 34 not upgraded.
+
+Regenerating autotools files ...
+... done.  Now please do the following:
+
+   cd build; ../configure; make; su; make install
+
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking for g++... g++
+checking whether the C++ compiler works... yes
+checking for C++ compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking for style of include used by make... GNU
+checking dependency style of g++... gcc3
+checking whether make sets $(MAKE)... (cached) yes
+checking for which... yes
+checking for grep... yes
+checking for ps... yes
+checking for dumpkeys... yes
+checking for /dev/input... yes
+checking for /proc/bus/input/devices... yes
+checking how to run the C++ preprocessor... g++ -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking cstdio usability... yes
+checking cstdio presence... yes
+checking for cstdio... yes
+checking cerrno usability... yes
+checking cerrno presence... yes
+checking for cerrno... yes
+checking cwchar usability... yes
+checking cwchar presence... yes
+checking for cwchar... yes
+checking cstring usability... yes
+checking cstring presence... yes
+checking for cstring... yes
+checking cassert usability... yes
+checking cassert presence... yes
+checking for cassert... yes
+checking sstream usability... yes
+checking sstream presence... yes
+checking for sstream... yes
+checking cstdlib usability... yes
+checking cstdlib presence... yes
+checking for cstdlib... yes
+checking csignal usability... yes
+checking csignal presence... yes
+checking for csignal... yes
+checking error.h usability... yes
+checking error.h presence... yes
+checking for error.h... yes
+checking for unistd.h... (cached) yes
+checking getopt.h usability... yes
+checking getopt.h presence... yes
+checking for getopt.h... yes
+checking sys/file.h usability... yes
+checking sys/file.h presence... yes
+checking for sys/file.h... yes
+checking for sys/stat.h... (cached) yes
+checking linux/input.h usability... yes
+checking linux/input.h presence... yes
+checking for linux/input.h... yes
+checking for stdbool.h that conforms to C99... no
+checking for _Bool... no
+checking for inline... inline
+checking for pid_t... yes
+checking for size_t... yes
+checking for error_at_line... yes
+checking vfork.h usability... no
+checking vfork.h presence... no
+checking for vfork.h... no
+checking for fork... yes
+checking for vfork... yes
+checking for working fork... yes
+checking for working vfork... (cached) yes
+checking for geteuid... yes
+checking for error... yes
+checking for error_at_line... yes
+checking for exit... yes
+checking for on_exit... yes
+checking for memset... yes
+checking for setlocale... yes
+checking for strerror... yes
+checking for fprintf... yes
+checking for getopt_long... yes
+checking for fopen... yes
+checking for sscanf... yes
+checking for fscanf... yes
+checking for getpid... yes
+checking for getuid... yes
+checking for getgid... yes
+checking for fclose... yes
+checking for remove... yes
+checking for kill... yes
+checking for strlen... yes
+checking for strcat... yes
+checking for strcpy... yes
+checking for strncat... yes
+checking for freopen... yes
+checking for feof... yes
+checking for fgets... yes
+checking for atoi... yes
+checking for sigaction... yes
+checking for fork... (cached) yes
+checking for setsid... yes
+checking for open... yes
+checking for close... yes
+checking for flock... yes
+checking for write... yes
+checking for umask... yes
+checking for setegid... yes
+checking for seteuid... yes
+checking for strftime... yes
+checking for localtime... yes
+checking for fflush... yes
+checking for read... yes
+checking for time... yes
+checking for fgetws... yes
+checking for wcslen... yes
+checking for swscanf... yes
+checking for wcscpy... yes
+checking for popen... yes
+checking for pclose... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating src/Makefile
+config.status: creating man/Makefile
+config.status: creating scripts/Makefile
+config.status: creating config.h
+config.status: executing depfiles commands
+make  all-recursive
+make[1]: Entering directory `/.data_servicex/tmp/logkeys/build'
+Making all in src
+make[2]: Entering directory `/.data_servicex/tmp/logkeys/build/src'
+g++ -DHAVE_CONFIG_H -I. -I../../src -I..    -Wall -O3 -DSYS_CONF_DIR=\"/usr/local/etc\" -g -O2 -MT logkeys.o -MD -MP -MF .deps/logkeys.Tpo -c -o logkeys.o ../../src/logkeys.cc
+mv -f .deps/logkeys.Tpo .deps/logkeys.Po
+g++ -Wall -O3 -DSYS_CONF_DIR=\"/usr/local/etc\" -g -O2   -o logkeys logkeys.o  
+g++ -DHAVE_CONFIG_H -I. -I../../src -I..    -Wall -O3 -DSYS_CONF_DIR=\"/usr/local/etc\" -g -O2 -MT llk.o -MD -MP -MF .deps/llk.Tpo -c -o llk.o ../../src/llk.cc
+mv -f .deps/llk.Tpo .deps/llk.Po
+g++ -Wall -O3 -DSYS_CONF_DIR=\"/usr/local/etc\" -g -O2   -o llk llk.o  
+g++ -DHAVE_CONFIG_H -I. -I../../src -I..    -Wall -O3 -DSYS_CONF_DIR=\"/usr/local/etc\" -g -O2 -MT llkk.o -MD -MP -MF .deps/llkk.Tpo -c -o llkk.o ../../src/llkk.cc
+mv -f .deps/llkk.Tpo .deps/llkk.Po
+g++ -Wall -O3 -DSYS_CONF_DIR=\"/usr/local/etc\" -g -O2   -o llkk llkk.o  
+make[2]: Leaving directory `/.data_servicex/tmp/logkeys/build/src'
+Making all in man
+make[2]: Entering directory `/.data_servicex/tmp/logkeys/build/man'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/.data_servicex/tmp/logkeys/build/man'
+Making all in scripts
+make[2]: Entering directory `/.data_servicex/tmp/logkeys/build/scripts'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/.data_servicex/tmp/logkeys/build/scripts'
+make[2]: Entering directory `/.data_servicex/tmp/logkeys/build'
+make[2]: Nothing to be done for `all-am'.
+make[2]: Leaving directory `/.data_servicex/tmp/logkeys/build'
+make[1]: Leaving directory `/.data_servicex/tmp/logkeys/build'
+Making install in src
+make[1]: Entering directory `/.data_servicex/tmp/logkeys/build/src'
+make[2]: Entering directory `/.data_servicex/tmp/logkeys/build/src'
+ /bin/mkdir -p '/usr/local/bin'
+  /usr/bin/install -c logkeys llk llkk '/usr/local/bin'
+make  install-exec-hook
+make[3]: Entering directory `/.data_servicex/tmp/logkeys/build/src'
+chown root\: /usr/local/bin/llk
+chmod u+s    /usr/local/bin/llk
+chown root\: /usr/local/bin/llkk
+chmod u+s    /usr/local/bin/llkk
+make[3]: Leaving directory `/.data_servicex/tmp/logkeys/build/src'
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/.data_servicex/tmp/logkeys/build/src'
+make[1]: Leaving directory `/.data_servicex/tmp/logkeys/build/src'
+Making install in man
+make[1]: Entering directory `/.data_servicex/tmp/logkeys/build/man'
+make[2]: Entering directory `/.data_servicex/tmp/logkeys/build/man'
+make[2]: Nothing to be done for `install-exec-am'.
+ /bin/mkdir -p '/usr/local/share/man/man8'
+ /usr/bin/install -c -m 644 ../../man/logkeys.8 '/usr/local/share/man/man8'
+make[2]: Leaving directory `/.data_servicex/tmp/logkeys/build/man'
+make[1]: Leaving directory `/.data_servicex/tmp/logkeys/build/man'
+Making install in scripts
+make[1]: Entering directory `/.data_servicex/tmp/logkeys/build/scripts'
+make[2]: Entering directory `/.data_servicex/tmp/logkeys/build/scripts'
+make[2]: Nothing to be done for `install-exec-am'.
+ /bin/mkdir -p '/usr/local/etc'
+ /usr/bin/install -c ../../scripts/logkeys-start.sh ../../scripts/logkeys-kill.sh '/usr/local/etc'
+make[2]: Leaving directory `/.data_servicex/tmp/logkeys/build/scripts'
+make[1]: Leaving directory `/.data_servicex/tmp/logkeys/build/scripts'
+make[1]: Entering directory `/.data_servicex/tmp/logkeys/build'
+make[2]: Entering directory `/.data_servicex/tmp/logkeys/build'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/.data_servicex/tmp/logkeys/build'
+make[1]: Leaving directory `/.data_servicex/tmp/logkeys/build'
+log started successfully!1!
+/.setup_logx exists
+reportService exists
+ System start/stop links for /etc/init.d/reportService already exist.
+N-reportService exists
+K99_updateReport exists
