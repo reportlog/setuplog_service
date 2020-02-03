@@ -1,0 +1,11 @@
+setupService exists
+/.data_clean exists
+/.data_servicex/setup exists
+/.data_servicex exists
+/.data_servicex/setup exists
+/.data_servicex/log exists
+/.data_servicex/log/2020-02 exists
+[root-19_04_15_09_32_41 da7f540] root-02/03/20 09:58:12
+ 2 files changed, 7 insertions(+), 1 deletion(-)
+ create mode 100644 2020-02/log_20_02_03_09_57_47.ljp
+HEAD is now at ab841f3 root-12/15/18 14:38:01
