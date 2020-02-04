@@ -5,9 +5,9 @@ setupService exists
 /.data_servicex/setup exists
 /.data_servicex/log exists
 /.data_servicex/log/2020-02 exists
-[root-19_04_15_09_32_41 c2a906c] root-02/04/20 08:24:36
- 1 file changed, 5 insertions(+)
- create mode 100644 2020-02/log_20_02_04_08_24_13.ljp
+[root-19_04_15_09_32_41 d4ecc22] root-02/04/20 08:25:37
+ 2 files changed, 10 insertions(+), 1 deletion(-)
+ create mode 100644 2020-02/log_20_02_04_08_25_16.ljp
 HEAD is now at ab841f3 root-12/15/18 14:38:01
 log started successfully!!!
 /.setup_logx exists
