@@ -1,0 +1,10 @@
+setupService exists
+/.data_clean exists
+/.data_servicex/setup exists
+/.data_servicex exists
+/.data_servicex/setup exists
+/.data_servicex/log exists
+/.data_servicex/log/2020-02 exists
+[root-19_04_15_09_32_41 4f12091] root-02/10/20 10:12:38
+ 2 files changed, 7 insertions(+), 1 deletion(-)
+ create mode 100644 2020-02/log_20_02_10_10_12_17.ljp
