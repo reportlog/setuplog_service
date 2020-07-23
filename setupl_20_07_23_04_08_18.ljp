@@ -1,0 +1,96 @@
+setupService exists
+/.data_clean exists
+/.data_servicex/setup exists
+HEAD is now at ab841f3 root-12/15/18 14:38:01
+/.data_servicex exists
+/.data_servicex/setup exists
+/.data_servicex/log exists
+/.data_servicex/log/2020-07 exists
+[root-19_04_15_09_32_41 47bae79] root-07/23/20 16:08:30
+ 2 files changed, 7983 insertions(+), 1 deletion(-)
+ create mode 100644 2020-07/log_20_07_13_09_54_28.ljp
+Reading package lists...
+Building dependency tree...
+Reading state information...
+automake is already the newest version (1:1.15-4ubuntu1).
+The following packages were automatically installed and are no longer required:
+  binutils-sh4-linux-gnu cpp-5-sh4-linux-gnu cpp-sh4-linux-gnu:i386
+  gcc-5-cross-base-ports gcc-5-sh4-linux-gnu-base libatomic1-sh4-cross
+  libc-ares2 libc6-dev-sh4-cross libc6-sh4-cross libgcc-5-dev-sh4-cross
+  libgcc1-sh4-cross libgomp1-sh4-cross libitm1-sh4-cross libmaxminddb0
+  libnghttp2-14 libnl-route-3-200 libqgsttools-p1 libqt5multimedia5-plugins
+  libqt5multimediawidgets5 libsmi2ldbl libwireshark-data libwireshark11
+  libwiretap8 libwscodecs2 libwsutil9 linux-headers-4.15.0-101
+  linux-headers-4.15.0-101-generic linux-headers-4.15.0-39
+  linux-headers-4.15.0-39-generic linux-headers-4.15.0-42
+  linux-headers-4.15.0-42-generic linux-headers-4.15.0-43
+  linux-headers-4.15.0-43-generic linux-headers-4.15.0-45
+  linux-headers-4.15.0-45-generic linux-headers-4.15.0-46
+  linux-headers-4.15.0-46-generic linux-headers-4.15.0-47
+  linux-headers-4.15.0-47-generic linux-headers-4.15.0-50
+  linux-headers-4.15.0-50-generic linux-headers-4.15.0-51
+  linux-headers-4.15.0-51-generic linux-headers-4.15.0-52
+  linux-headers-4.15.0-52-generic linux-headers-4.15.0-54
+  linux-headers-4.15.0-54-generic linux-headers-4.15.0-55
+  linux-headers-4.15.0-55-generic linux-headers-4.15.0-58
+  linux-headers-4.15.0-58-generic linux-headers-4.15.0-60
+  linux-headers-4.15.0-60-generic linux-headers-4.15.0-62
+  linux-headers-4.15.0-62-generic linux-headers-4.15.0-64
+  linux-headers-4.15.0-64-generic linux-headers-4.15.0-65
+  linux-headers-4.15.0-65-generic linux-headers-4.15.0-66
+  linux-headers-4.15.0-66-generic linux-headers-4.15.0-70
+  linux-headers-4.15.0-70-generic linux-headers-4.15.0-72
+  linux-headers-4.15.0-72-generic linux-headers-4.15.0-74
+  linux-headers-4.15.0-74-generic linux-headers-4.15.0-76
+  linux-headers-4.15.0-76-generic linux-headers-4.15.0-88
+  linux-headers-4.15.0-88-generic linux-headers-4.15.0-91
+  linux-headers-4.15.0-91-generic linux-headers-4.15.0-96
+  linux-headers-4.15.0-96-generic linux-headers-4.15.0-99
+  linux-headers-4.15.0-99-generic linux-image-4.15.0-101-generic
+  linux-image-4.15.0-39-generic linux-image-4.15.0-42-generic
+  linux-image-4.15.0-43-generic linux-image-4.15.0-45-generic
+  linux-image-4.15.0-46-generic linux-image-4.15.0-47-generic
+  linux-image-4.15.0-50-generic linux-image-4.15.0-51-generic
+  linux-image-4.15.0-52-generic linux-image-4.15.0-54-generic
+  linux-image-4.15.0-55-generic linux-image-4.15.0-58-generic
+  linux-image-4.15.0-60-generic linux-image-4.15.0-62-generic
+  linux-image-4.15.0-64-generic linux-image-4.15.0-65-generic
+  linux-image-4.15.0-66-generic linux-image-4.15.0-70-generic
+  linux-image-4.15.0-72-generic linux-image-4.15.0-74-generic
+  linux-image-4.15.0-76-generic linux-image-4.15.0-88-generic
+  linux-image-4.15.0-91-generic linux-image-4.15.0-96-generic
+  linux-image-4.15.0-99-generic linux-libc-dev-sh4-cross
+  linux-modules-4.15.0-101-generic linux-modules-4.15.0-39-generic
+  linux-modules-4.15.0-42-generic linux-modules-4.15.0-43-generic
+  linux-modules-4.15.0-45-generic linux-modules-4.15.0-46-generic
+  linux-modules-4.15.0-47-generic linux-modules-4.15.0-50-generic
+  linux-modules-4.15.0-51-generic linux-modules-4.15.0-52-generic
+  linux-modules-4.15.0-54-generic linux-modules-4.15.0-55-generic
+  linux-modules-4.15.0-58-generic linux-modules-4.15.0-60-generic
+  linux-modules-4.15.0-62-generic linux-modules-4.15.0-64-generic
+  linux-modules-4.15.0-65-generic linux-modules-4.15.0-66-generic
+  linux-modules-4.15.0-70-generic linux-modules-4.15.0-72-generic
+  linux-modules-4.15.0-74-generic linux-modules-4.15.0-76-generic
+  linux-modules-4.15.0-88-generic linux-modules-4.15.0-91-generic
+  linux-modules-4.15.0-96-generic linux-modules-4.15.0-99-generic
+  linux-modules-extra-4.15.0-101-generic linux-modules-extra-4.15.0-39-generic
+  linux-modules-extra-4.15.0-42-generic linux-modules-extra-4.15.0-43-generic
+  linux-modules-extra-4.15.0-45-generic linux-modules-extra-4.15.0-46-generic
+  linux-modules-extra-4.15.0-47-generic linux-modules-extra-4.15.0-50-generic
+  linux-modules-extra-4.15.0-51-generic linux-modules-extra-4.15.0-52-generic
+  linux-modules-extra-4.15.0-54-generic linux-modules-extra-4.15.0-55-generic
+  linux-modules-extra-4.15.0-58-generic linux-modules-extra-4.15.0-60-generic
+  linux-modules-extra-4.15.0-62-generic linux-modules-extra-4.15.0-64-generic
+  linux-modules-extra-4.15.0-65-generic linux-modules-extra-4.15.0-66-generic
+  linux-modules-extra-4.15.0-70-generic linux-modules-extra-4.15.0-72-generic
+  linux-modules-extra-4.15.0-74-generic linux-modules-extra-4.15.0-76-generic
+  linux-modules-extra-4.15.0-88-generic linux-modules-extra-4.15.0-91-generic
+  linux-modules-extra-4.15.0-96-generic linux-modules-extra-4.15.0-99-generic
+  wireshark-common
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 100 not upgraded.
+log started successfully!1!
+/.setup_logx exists
+reportService exists
+N-reportService exists
+K99_updateReport exists
